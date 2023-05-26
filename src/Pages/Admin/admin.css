@@ -1,0 +1,79 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+  }
+  
+  .admin-container h1 {
+    font-size: 57px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 600px; 
+  }
+  
+  .submit-button {
+    margin-bottom: 30px;
+    width: 100%; 
+  }
+  
+  .list {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(55, 53, 53, 0.38);
+    border-radius: 4px;
+    margin-bottom: 13px;
+    justify-content: center;
+    padding: 15px 8px;
+  }
+  
+  .task-description {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .task-button {
+
+    background-color: transparent;
+    color: #cb9f0d;
+    border: none;
+   
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .btn-delete {
+    color: #08b565;
+    background-color: transparent;
+  }
+  
+  .btn-logout {
+    position: absolute;
+    bottom: 7%;
+    left: 4%;
+    height: 70px;
+    width: 70px;
+    padding: 0.5rem 1rem;
+    background-color: #ff0000e0;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .btn-logout:hover {
+    background-color: rgb(132, 18, 20);
+    color: azure;
+  }
+  
